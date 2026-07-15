@@ -26,9 +26,12 @@ class LedGateway(Node):
         # creamos subscriptions por cuantos compañeros haya
         self.sub1 = self.create_subscription(String, 'erick', self.listener_callback, 10)
         self.sub2 = self.create_subscription(String, 'fer', self.listener_callback, 10)
+        self.sub3 = self.create_subscription(String, 'charlie', self.listener_callback, 10)
+        
         
         self.sub1 # Prevent unused variable warning
         self.sub2 # Prevent unused variable warning
+        self.sub3 # Prevent unused variable warning
         
         self.state = False # Led state
         self.get_logger().info('led_edge_node listo, publicando en /led_cmd')
