@@ -25,6 +25,7 @@ services:
     environment:
       ROS_DOMAIN_ID: 1
       RMW_IMPLEMENTATION: rmw_cyclonedds_cpp
+      CYCLONEDDS_URI: file:///ros2_ws/cyclonedds.xml
 
     # ESP32 sobre USB-serial. Ajusta según tu placa:
     #   CP2102  -> /dev/ttyUSB0
