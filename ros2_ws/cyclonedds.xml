@@ -9,7 +9,8 @@
       <Peers>
         <Peer address="192.168.0.128"/>   <!-- turtlebot -->
         <Peer address="192.168.6.196"/>   <!-- IP de Ericknar -->
-        <!-- agrega aquí la IP de cada compañero adicional -->
+        <Peer address="192.168.126.128"/>
+        <Peer address="192.168.1.110"/>
       </Peers>
     </Discovery>
   </Domain>
